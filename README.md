@@ -1,1 +1,1 @@
-# crew-ai-first-agent
+# crew-ai-trip-planner-agent
