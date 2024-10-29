@@ -35,8 +35,8 @@ Notes:
 
 class TravelAgents:
     def __init__(self):
-        self.OpenAIGPT35 = ChatOpenAI(base_url="https://api.avalai.ir/v1",model_name="gpt-3.5-turbo", temperature=0.7)
-        self.OpenAIGPT4 = ChatOpenAI(base_url="https://api.avalai.ir/v1",model_name="gpt-4", temperature=0.7)
+        self.OpenAIGPT35 = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.7)
+        self.OpenAIGPT4 = ChatOpenAI(model_name="gpt-4", temperature=0.7)
     def expert_travel_agent(self):
         return Agent(
             role="Expert Travel Agent",
